@@ -1,0 +1,4 @@
+Links = $x('//h2[@style]/a/@href')
+Titulo = $x('//h2[@style="font-size: 45px; line-height: 49px;"]/a/text()')
+Resumen = $x('//div[@class="lead"]/p/text()')
+Cuerpo = $x('//div[@class="html-content"]/p/text()')
