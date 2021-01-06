@@ -1,4 +1,4 @@
-Links = $x('//h2[@style]/a/@href')
-Titulo = $x('//h2[@style="font-size: 45px; line-height: 49px;"]/a/text()')
-Resumen = $x('//div[@class="lead"]/p/text()')
-Cuerpo = $x('//div[@class="html-content"]/p/text()')
+Links = "//a[contains(@class, 'kicker')]/@href"
+Title = "//div[@class='mb-auto']/text-fill/a/text()"
+Summary = "//div[@class='lead']/p/text()"
+Body = "//div[@class='html-content']/p/text()"
